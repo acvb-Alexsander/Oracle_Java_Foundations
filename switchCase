@@ -1,0 +1,63 @@
+int x =20, y=2;
+int x =20, y=2;
+switch(x+y){
+    case 42:
+    System.out.println("O resutado é 42");
+    break;
+    case 3:
+    System.out.println("O resultado é 3");
+    break;
+    case 22:
+    System.out.println("O resultado é 22");
+    break;
+    default:
+    System.out.println("Não tem resultado conclusivo");
+}
+y=22
+switch(x+y){
+    case 42:
+    System.out.println("O resutado é 42");
+    break;
+    case 3:
+    System.out.println("O resultado é 3");
+    break;
+    case 22:
+    System.out.println("O resultado é 22");
+    break;
+    default:
+    System.out.println("Não tem resultado conclusivo");
+}
+x=10
+switch(x+y){
+    case 42:
+    System.out.println("O resutado é 42");
+    break;
+    case 3:
+    System.out.println("O resultado é 3");
+    break;
+    case 22:
+    System.out.println("O resultado é 22");
+    break;
+    default:
+    System.out.println("Não tem resultado conclusivo");
+}
+String notes = "Measurement details.";
+String unit = "lb";
+double v =12.6,value=0;
+double v =12.6,value=0;
+switch(unit){
+    case "lb":
+    v *=0.453592;
+    case "kg":
+    notes += " Measure weight.";
+    break;
+    case "ft":
+    v *=0.3048;
+    case "m":
+    notes += " Measure length.";
+    break;
+    default:
+    notes += " Measure things";
+}
+value = v
+notes

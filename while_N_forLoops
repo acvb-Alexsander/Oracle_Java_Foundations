@@ -1,0 +1,17 @@
+double [] values = {22.1,17.09,42.70};
+double sum = 0;
+for(double value: values){
+    sum+=value;
+}
+sum
+double sum2=0;
+for(double value: values){
+    sum+=value;
+}
+for(double value: values){
+    sum+=value;
+}
+for (double value: values){
+    sum2 += value;
+    System.out.println("O resultado da soma do loop é:"+sum2);
+}

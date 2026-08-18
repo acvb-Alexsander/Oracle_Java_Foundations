@@ -1,0 +1,16 @@
+String u ="lb";
+double v=42;
+String notes ="Measurement details";
+String unit;
+double value;
+if(u.equals("lb")){
+    notes += "Converted from lb to kg.";
+    value = v*0.453592;
+}else{
+    notes+= "No conversion required.";
+    value = v;
+}
+unit
+notes
+unit="kg"
+value
