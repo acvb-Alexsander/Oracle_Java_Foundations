@@ -7,6 +7,14 @@ public class Measurement {
     String unit;
     double value;
 
+    public Measurement() {
+    }
+
+    public Measurement(String note, String unit, double value) {
+        this.note = note;
+        this.unit = unit;
+        this.value = value;
+    }
 
     boolean isSI(String unit){
     for (String u: SI_UNITS){
